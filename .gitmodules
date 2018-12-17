@@ -1,0 +1,9 @@
+[submodule "jshop2"]
+	path = jshop2
+	url = https://github.com/Automated-Planning/jshop2.git
+[submodule "USV_GuidanceSystem"]
+	path = USV_GuidanceSystem
+	url = https://github.com/Unmanned-Surface-Vehicle/USV_GuidanceSystem.git
+[submodule "usv_sim_lsa"]
+	path = usv_sim_lsa
+	url = https://github.com/Unmanned-Surface-Vehicle/usv_sim_lsa.git
