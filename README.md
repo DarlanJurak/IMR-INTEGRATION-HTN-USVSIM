@@ -30,7 +30,7 @@ For execution of this project its necessary to be capable of run [USV_SIM "fork"
 ### Head-On situation example
 ###### General Instructions:
 
-For replication of the presented experiment 3 main repository are required: JSHOP2 fork, USV SIM, and USV GUIDER. It is required to install the USV SIM epository as a catkin package and run the repository as follow:
+For replication of the presented experiment 3 main repository are required: JSHOP2 fork, USV SIM fork, and USV GUIDER. It is required to install the USV SIM epository as a catkin package and run the repository as follow:
 
     ~/catkin_ws$ \catkin_make_isolated --install
     ~/catkin_ws$ source install_isolated/setup.bash
