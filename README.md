@@ -42,6 +42,13 @@ For the USV_GUIDER execution is required to run:
 
     /USV_GuidanceSystem$ ./run.sh
 
-Is expected that after the execution of the command above, the controlled boat start to move straight ahead, as presented in the figures below:
+Is expected that after the execution of the command above, the controlled boat start to move straight ahead and when finding some obstacle try to avoid collision, in a behavior similar to the sequence presented below:
 
-![Experiment_HeadOn_1](Figures/Experiment_HeadOn_1.png)
+<img src="Figures/Experiment_HeadOn_1.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_2.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_3.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_4.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_5.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_6.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_7.png" alt="drawing" width="400"/>
+<img src="Figures/Experiment_HeadOn_8.png" alt="drawing" width="400"/>
