@@ -11,17 +11,13 @@ USV_SIM -> https://github.com/disaster-robotics-proalertas/usv_sim_lsa
 
 
 Below we can see the main architecture of this project:
-![a](Integration_Architecture.png)
-
-The JSHOP platform is a Java plata
+![Integration_Architecture\label{Integration_Architecture}](Integration_Architecture.png)
 
 # What it does
 
-Currently, as presented
+Currently, the system is capable to guide one USV and try to avoid possible Head-On collision situations being compliant to the COOLREGs (Convention on the International Regulations for Preventing Collisions at Sea, 1972). The USV_GUIDER block is implemented in python and must be edited to allow new features.
 
 # How to compile
-# How to execute a example
-
 
 Experiment Replication - General Instructions:
 For replication of the presented experiment 3 main repository are required: JSHOP2 fork, USV SIM, and USV GUIDER. It is required to install the USV SIM epository as a catkin package and run the repository as follow:
@@ -37,3 +33,6 @@ For the USV_GUIDER execution is required to run:
     /USV_GuidanceSystem$ ./run.sh
 
 Is expected that after the execution of the command above, the controlled boat start to move straight ahead.
+
+
+# How to execute a example
