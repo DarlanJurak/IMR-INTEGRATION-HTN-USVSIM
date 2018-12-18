@@ -23,10 +23,16 @@ Currently, the system is capable to guide one USV and try to avoid possible Head
 
 # How to compile
 
-Experiment Replication - General Instructions:
+For execution of this project its necessary to be capable of run [USV_SIM "fork"](https://github.com/Unmanned-Surface-Vehicle/usv_sim_lsa/tree/268edc0277086f1b86e2ffff4533ca710aa4fdf0), [JSHOP2 "fork"](https://github.com/Automated-Planning/jshop2/tree/f704d9e7193495aa45670c4fe6d4a5eb3677bef0), and python 2.7. USV_SIM "fork" and JSHOP2 "fork" contains its on installation guide.
+
+# How to execute an example
+
+### Head-On situation example
+###### General Instructions:
+
 For replication of the presented experiment 3 main repository are required: JSHOP2 fork, USV SIM, and USV GUIDER. It is required to install the USV SIM epository as a catkin package and run the repository as follow:
 
-    ~/catkin_ws$ \atkin_make_isolated --install
+    ~/catkin_ws$ \catkin_make_isolated --install
     ~/catkin_ws$ source install_isolated/setup.bash
     ~/catkin_ws$ roslaunch usv_sim airboat_scenario4_intruder.launch parse:=true
     ~/catkin_ws$ roslaunch usv_sim airboat_scenario4_intruder.launch parse:=false gui:=true
@@ -36,7 +42,6 @@ For the USV_GUIDER execution is required to run:
 
     /USV_GuidanceSystem$ ./run.sh
 
-Is expected that after the execution of the command above, the controlled boat start to move straight ahead.
+Is expected that after the execution of the command above, the controlled boat start to move straight ahead, as presented in the figures below:
 
-
-# How to execute an example
+![Experiment_HeadOn_1](Figures/Experiment_HeadOn_1.png)
