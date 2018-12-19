@@ -19,7 +19,7 @@ The JSHOP2 is originally developed to user interaction through GUI. For this int
 
 # What it does
 
-Currently, the system is capable to guide one USV and try to avoid possible Head-On collision situations being compliant to the COOLREGs (Convention on the International Regulations for Preventing Collisions at Sea, 1972). The USV_GUIDER block is implemented in python and must be edited to allow new features.
+Currently, the system is capable to guide one USV and try to avoid possible Head-On collision situations being compliant to the COLREGs (Convention on the International Regulations for Preventing Collisions at Sea, 1972). The USV_GUIDER block is implemented in python and must be edited to allow new features.
 
 # How to compile
 
